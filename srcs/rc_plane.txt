@@ -1,0 +1,9 @@
+tRC Cargo Plane
+dA remote-control airplane with a 75 inch wingspan and 1800g of thrust. It's been a plan of mine for a while to build this, over 2 years in fact. 
+lInstructables (main inspiration)
+https://www.instructables.com/Design-Build-Your-Own-Electric-RC-Airplane/
+rdParts Plan,dOrder Parts,iAssemble (sub-milestones to come)
+sInitial Design
+I first concieved this project in Senior year of high school, if not earlier. At the time I was really into microcontrollers and electronics, and some of my favorite projects were my Arduino experiments. I started exploring the field of RC much earlier, when my parents got me a toy drone as a birthday gift in middle school. I later built an RC blimp for a middle school project, and even started making plans for a hexacopter. However, I soon joined an FRC team, and so I took a break from designing RC vehicles as robotics gave me my electronics fix. Later, once the pandemic hit, and robotics got cancelled, I dug up my old plans and started designing this RC plane.
+sDesign Decisions
+I wanted a decent flight time, at least 10-12 minutes. To that end, I planned out my parts list to ensure my batteries would last long enough for a 15 minute flight. I also wanted a twin-engine design, which is why I went with the instructable linked above as my guiding document. It was a little challenging to design, as many of the parts used in the instructable had since gone out of production. However, with enough research, I was able to put together a parts list that should hopefully work, both in weight and power.

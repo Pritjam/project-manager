@@ -1,0 +1,15 @@
+Project Manager
+project_manager.html
+A framework for generating these very webpages. Very customizable and modular.
+RC Cargo Plane
+rc_plane.html
+A remote-controlled Cargo Plane witha 75 inch wingspan and 1800g of thrust. I plan to turn it into a modular platform for FPV, aerial operations, photography/filming, and more.
+CPM-80 Retro PC
+cpm80.html
+My build of a Z80-based computer running CP/M and 4K BASIC. Heavily inspired by Grant Searle's build as well as Charles Petzold's CODE book.
+HexChess
+hexchess.html
+A variant of chess written in Java based on hexagons instead of squares. HexChess has an innovative ruleset that redefines chess, requiring entirely new strategies and playstyles to win.
+PokeFrogs
+pokefrogs.html
+A text-based tycoon game of sorts, heavily inspired by the old iOS game <em>Pocket Frogs</em>. You manage a farm of frogs of various colors and patterns. Behind the scenes, there's a Mendelian genetics engine, a CRUD API for save data and online play, a password system, and more features.

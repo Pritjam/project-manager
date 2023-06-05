@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pritjam</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/projects.css">
+</head>
+
+<body>
+	<div class="header">
+		<h1>Prithvi Jamadagni's Webpage</h1>
+		<p class="motd">Howdy, and welcome to my website!</p>
+	</div>
+
+	<!-- Site navigation menu -->
+	<ul class="navbar">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="games.html">My Games</a></li>
+		<li><a href="projects.html">Projects</a></li>
+		<li><a href="index.html">About Me</a></li>
+	</ul>
+
+	<div class="section">
+		<h2>Some of my past projects</h2>
+		<div class="projects">
+			{% for project in projects %}
+			<div class="project">
+				<h4><a href="{{ project.link }}">{{ project.title }}</a></h4>
+				<p>{{ project.description }}</p>
+			</div>
+			{% endfor %}
+
+			<!-- abcd
+			<div class="project">
+				<h4></h4>
+				<p></p>
+			</div>
+			-->
+			
+		</div>
+	</div>
+</body>
+
+</html>

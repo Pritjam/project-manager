@@ -1,0 +1,6 @@
+tProject Manager
+dThis is a project to manage my projects! I find it important to keep track of all of my projects, so I put together this framework with which I can easily keep this website up to date with changes to different project statuses.
+lJinja2 library
+https://jinja.palletsprojects.com/en/3.1.x/
+sInitial Iteration
+At the moment, the manager is in the form of a Python program using the Jinja2 libaray (linked above) that reads from HTML template files and text files with context, then fills in the context into the template. This allows me to write a text file for a project very easily (basically just the raw text I need in the page, with a little syntax) and the program generates HTML files for me.
