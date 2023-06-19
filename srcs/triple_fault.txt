@@ -1,8 +1,6 @@
-tTriple Fault OS
-ghttps://github.com/Pritjam/Triple-Fault
-dThis is an operating system coded in Rust. I'm following Philipp Oppermann's excellent blog 'Writing an OS in Rust' (linked below) to teach myself Rust while creating an interesting project. The OS contains a basic kernel with VGA text output, exceptions and interrupts, paging, a heap allocator, and the beginnings of asynchronous multitasking.
-lPhillip's Blog
-https://os.phil-opp.com/
-rdBare Bones-Kernel and VGA text mode,iExceptions and Interrupts,iVirtual Memory and the Heap,iCooperative Multitasking
-sFirst Steps
+title: Triple Fault OS
+github: https://github.com/Pritjam/Triple-Fault
+description: This is an operating system coded in Rust. I'm following Philipp Oppermann's excellent blog 'Writing an OS in Rust' (linked below) to teach myself Rust while creating an interesting project. The OS contains a basic kernel with VGA text output, exceptions and interrupts, paging, a heap allocator, and the beginnings of asynchronous multitasking.
+link: [Phillip's Blog](https://os.phil-opp.com/)
+paragraph: First Steps
 I started by making sure my Rust installation was completely up to date. There's also a few dependencies and crates I had to install. I also had to get QEMU installed and working.

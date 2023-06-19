@@ -26,7 +26,7 @@
 			<p><a href="{{ github }}">GitHub Repo</a></p>
 			{% endif %}
 			{% for link in links %}
-			<p><a href="{{link.link}}">{{ link.name }}</a></p>
+			<p><a href="{{link.url}}">{{ link.visible }}</a></p>
 			{% endfor %}
 		</div>
 		{% if roadmap %}
@@ -58,10 +58,10 @@
 			</div>
 			-->
 
-		{% for section in sections %}
+		{% for paragraph in paragraphs %}
 		<div class="section-item">
-			<h4>{{ section.title }}</h4>
-			<p>{{ section.text }}</p>
+			<h4>{{ paragraph.title }}</h4>
+			<p>{{ paragraph.text }}</p>
 		</div>
 		{% endfor %}
 	</div>
