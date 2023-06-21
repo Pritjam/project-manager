@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import os
 from jinja2 import Environment, FileSystemLoader
 
@@ -65,7 +67,7 @@ def process_file(filepath):
 
 
 
-print("Using file 'templates/proj_template.html' as jinja2 template.\nUsing 'srcs' as project description inputs.")
+print("Using file 'templates/proj_template.html' as jinja2 template.\nUsing 'srcs' as project description inputs. Writing files to ../pages/")
 
 src_filenames = os.listdir("srcs")
 
@@ -80,7 +82,8 @@ for filename in src_filenames:
     # get output path
     out_filename = os.path.splitext(filename)[0]
     out_filename += '.html'
-    out_path = os.path.join('out', out_filename)
+    out_path = os.path.join('../pages', out_filename)
+    print(out_path)
     # write output HTML file
     with open(out_path, "w") as outfile:
         outfile.write(template.render(components))
